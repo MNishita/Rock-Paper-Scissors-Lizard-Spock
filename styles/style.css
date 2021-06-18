@@ -66,6 +66,7 @@ header p {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 1.5rem;
+    align-items: center;
 }
 
 .hands button {
@@ -138,4 +139,15 @@ header p {
 
 .hidden {
     display: none;
+}
+
+@media (max-width:622px) {
+    .hands .Spock {
+        margin: 0.5rem auto;
+    }
+}
+@media (max-width:512px) and (min-width:400px) {
+    .hands .Lizard {
+        margin: 0.5rem auto;
+    }
 }
