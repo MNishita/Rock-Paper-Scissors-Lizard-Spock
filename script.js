@@ -97,7 +97,6 @@ const gameLogic = function(userSelected, computerSelected) {
             return;
         }
         else {
-            pScore++;
             gameWin(userSelected,computerSelected);
             return;
         }
